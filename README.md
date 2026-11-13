@@ -1,8 +1,8 @@
-# 💗 Nuestro Plan
+ Nuestro Plan
 
 Web app móvil para planear y vivir un fin de semana en pareja: itinerario paso a paso, ruta del día, misiones con foto, control de gastos, puntos, ruleta de colores y álbum de recuerdos. Es un **único archivo HTML**, sin servidor, sin dependencias y sin cuentas: todo se guarda en el propio celular.
 
-## ✨ Funcionalidades
+Funcionalidades
 
 - **Itinerario guiado:** avanzas paso a paso; los pasos futuros quedan bloqueados hasta resolver el actual.
 - **Ruta del día:** mapa esquemático (SVG) con pines numerados y botón para abrir el recorrido completo en Google Maps.
@@ -14,7 +14,7 @@ Web app móvil para planear y vivir un fin de semana en pareja: itinerario paso 
 - **Extras y ruleta de colores:** retos opcionales y una ruleta que asigna un color a cada persona.
 - **Diseño tipo app:** tema oscuro violeta/rosa, íconos de línea, responsive (máx. 480 px centrado en pantallas grandes).
 
-## 🚀 Uso
+Uso
 
 1. Descarga o clona el repositorio.
 2. Abre `index.html` en el navegador del celular (o en el computador).
@@ -23,7 +23,7 @@ Para publicarlo en línea: **Settings → Pages → Deploy from a branch → `ma
 
 > Fuentes (Google Fonts) y fotos de lugares (Wikipedia/Wikimedia) requieren internet. Sin conexión la app funciona con la tipografía del sistema y sin fotos.
 
-## 🛠️ Personalizar tu plan
+ Personalizar tu plan
 
 Edita la constante `DAYS` al inicio del `<script>` principal de `index.html`. Cada día tiene `id`, `n` (nombre), `date` (`AAAA-MM-DD`), `t` (título), `sub` (subtítulo) e `items`.
 
@@ -49,11 +49,11 @@ Otros ajustes:
 - **Puntos:** 10 por llegar puntual, 20 por misión cumplida y 5 por anotar el gasto real.
 - **Extras:** lista `EX`.
 
-## 💾 Datos y privacidad
+Datos y privacidad
 
 Todo se almacena localmente con `localStorage` e `IndexedDB`. No se envía nada a ningún servidor. Cada dispositivo tiene sus propios datos; el botón ⚙️ permite borrarlos.
 
-## 📁 Estructura
+ Estructura
 
 ```
 ├── index.html   # toda la app (HTML + CSS + JS)
@@ -61,6 +61,6 @@ Todo se almacena localmente con `localStorage` e `IndexedDB`. No se envía nada 
 └── LICENSE
 ```
 
-## 📄 Licencia
+ Licencia
 
 MIT — ver `LICENSE`.
